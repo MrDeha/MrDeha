@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 265" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080b"/>
+      <stop offset="100%" stop-color="#0b0b10"/>
+    </linearGradient>
+    <pattern id="gridStack" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00fff7" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="265" rx="8" fill="url(#bgStack)" stroke="#1f242d" stroke-width="1.5"/>
+  <rect width="1200" height="265" rx="8" fill="url(#gridStack)"/>
+
+  <!-- Header -->
+  <line x1="34" y1="36" x2="78" y2="36" stroke="#ff2cdb" stroke-width="2"/>
+  <text x="90" y="40" class="mono" font-size="11.5" font-weight="700" fill="#ff2cdb" letter-spacing="4">03 // NEURAL CORE STACK</text>
+  <text x="360" y="40" class="mono" font-size="10" fill="#6b7280" letter-spacing="1.5">// VERIFIED RUNTIME MODULES &amp; ARCHITECTURAL DEPENDENCIES</text>
+
+  <!-- 4 Cyber Columns -->
+  <!-- Column 1: Languages & Systems -->
+  <rect x="30" y="62" width="272" height="180" rx="5" fill="#0d0f17" stroke="#00fff7" stroke-opacity="0.22"/>
+  <text x="48" y="88" class="mono" font-size="10" font-weight="700" fill="#00fff7" letter-spacing="1.5">MOD_01 // CORE LANGUAGES</text>
+  <line x1="48" y1="98" x2="284" y2="98" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g class="mono" font-size="11.5" fill="#d1d5db">
+    <text x="48" y="122"><tspan fill="#00fff7">▸</tspan> TypeScript / JavaScript (ESNext)</text>
+    <text x="48" y="146"><tspan fill="#00fff7">▸</tspan> Python 3.12+ (Async / AI)</text>
+    <text x="48" y="170"><tspan fill="#00fff7">▸</tspan> Rust (Systems &amp; Tauri Core)</text>
+    <text x="48" y="194"><tspan fill="#00fff7">▸</tspan> Dart &amp; SQL (PostgreSQL)</text>
+    <text x="48" y="218"><tspan fill="#00fff7">▸</tspan> HTML5 / CSS3 / Shell</text>
+  </g>
+
+  <!-- Column 2: Frontend & Desktop -->
+  <rect x="318" y="62" width="272" height="180" rx="5" fill="#0d0f17" stroke="#ff2cdb" stroke-opacity="0.22"/>
+  <text x="336" y="88" class="mono" font-size="10" font-weight="700" fill="#ff2cdb" letter-spacing="1.5">MOD_02 // INTERFACE &amp; DESKTOP</text>
+  <line x1="336" y1="98" x2="572" y2="98" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g class="mono" font-size="11.5" fill="#d1d5db">
+    <text x="336" y="122"><tspan fill="#ff2cdb">▸</tspan> React 19 &amp; Next.js (App Router)</text>
+    <text x="336" y="146"><tspan fill="#ff2cdb">▸</tspan> Tauri v2 (Native Desktop)</text>
+    <text x="336" y="170"><tspan fill="#ff2cdb">▸</tspan> Tailwind CSS &amp; Framer Motion</text>
+    <text x="336" y="194"><tspan fill="#ff2cdb">▸</tspan> Flutter &amp; React Native</text>
+    <text x="336" y="218"><tspan fill="#ff2cdb">▸</tspan> Vite / Monorepo Tooling</text>
+  </g>
+
+  <!-- Column 3: AI & Realtime Backend -->
+  <rect x="606" y="62" width="272" height="180" rx="5" fill="#0d0f17" stroke="#00fff7" stroke-opacity="0.22"/>
+  <text x="624" y="88" class="mono" font-size="10" font-weight="700" fill="#00fff7" letter-spacing="1.5">MOD_03 // AI &amp; NEURAL BACKEND</text>
+  <line x1="624" y1="98" x2="860" y2="98" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g class="mono" font-size="11.5" fill="#d1d5db">
+    <text x="624" y="122"><tspan fill="#00fff7">▸</tspan> Autonomous AI Agents &amp; LLMs</text>
+    <text x="624" y="146"><tspan fill="#00fff7">▸</tspan> Model Context Protocol (MCP)</text>
+    <text x="624" y="170"><tspan fill="#00fff7">▸</tspan> Node.js / Express / FastAPI</text>
+    <text x="624" y="194"><tspan fill="#00fff7">▸</tspan> WebRTC (P2P) &amp; WebSockets</text>
+    <text x="624" y="218"><tspan fill="#00fff7">▸</tspan> TensorFlow &amp; OpenCV Vision</text>
+  </g>
+
+  <!-- Column 4: Cloud, Data & DevOps -->
+  <rect x="894" y="62" width="276" height="180" rx="5" fill="#0d0f17" stroke="#ff2cdb" stroke-opacity="0.22"/>
+  <text x="912" y="88" class="mono" font-size="10" font-weight="700" fill="#ff2cdb" letter-spacing="1.5">MOD_04 // DATA &amp; INFRASTRUCTURE</text>
+  <line x1="912" y1="98" x2="1152" y2="98" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g class="mono" font-size="11.5" fill="#d1d5db">
+    <text x="912" y="122"><tspan fill="#ff2cdb">▸</tspan> PostgreSQL / Supabase / Auth</text>
+    <text x="912" y="146"><tspan fill="#ff2cdb">▸</tspan> MongoDB &amp; Redis Caching</text>
+    <text x="912" y="170"><tspan fill="#ff2cdb">▸</tspan> Docker &amp; Reproducible Nix</text>
+    <text x="912" y="194"><tspan fill="#ff2cdb">▸</tspan> Git / GitHub Actions CI/CD</text>
+    <text x="912" y="218"><tspan fill="#ff2cdb">▸</tspan> Vercel Edge &amp; Linux Servers</text>
+  </g>
+</svg>

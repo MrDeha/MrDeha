@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 245" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a0f"/>
+      <stop offset="100%" stop-color="#060609"/>
+    </linearGradient>
+    <linearGradient id="topAccent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2cdb"/>
+      <stop offset="100%" stop-color="#00fff7" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    .pulse { animation: blink 2.2s infinite; }
+  </style>
+
+  <rect width="588" height="245" rx="6" fill="url(#cBg2)" stroke="#ff2cdb" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="1" y="1" width="586" height="3" rx="2" fill="url(#topAccent2)"/>
+
+  <!-- Header Row -->
+  <rect x="24" y="22" width="112" height="20" rx="3" fill="#ff2cdb" fill-opacity="0.08" stroke="#ff2cdb" stroke-opacity="0.3"/>
+  <text x="80" y="35.5" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#ff2cdb" letter-spacing="1.5">ARCHIVE::02</text>
+
+  <circle cx="436" cy="32" r="3.5" fill="#ff2cdb" class="pulse"/>
+  <text x="446" y="35.5" class="mono" font-size="9.5" font-weight="600" fill="#ff2cdb" letter-spacing="1">NEURAL // RUNTIME</text>
+
+  <!-- Title & Description -->
+  <text x="24" y="70" class="sans" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="-0.5">DEHA-Agent</text>
+  <text x="166" y="69" class="mono" font-size="10.5" fill="#ff2cdb">// Autonomous AI Agent Platform</text>
+
+  <text x="24" y="95" class="sans" font-size="12.5" fill="#9ca3af">
+    Full-featured autonomous personal AI agent runtime with trajectory compression,
+  </text>
+  <text x="24" y="113" class="sans" font-size="12.5" fill="#9ca3af">
+    multi-provider LLM routing, cron routines, TUI/Web gateways, and MCP toolsets.
+  </text>
+
+  <!-- Intelligence Report Box -->
+  <rect x="24" y="128" width="540" height="62" rx="4" fill="#0d0f17" stroke="#ffffff" stroke-opacity="0.07"/>
+  <text x="36" y="146" class="mono" font-size="9.5" font-weight="700" fill="#ff2cdb">[INTELLIGENCE REPORT: DEHA-AGENT]</text>
+  <text x="36" y="163" class="mono" font-size="9.5" fill="#9ca3af">
+    <tspan fill="#00fff7">&gt;</tspan> ARCH: Modular Python agent loop, ACP registry &amp; sandboxed execution.
+  </text>
+  <text x="36" y="179" class="mono" font-size="9.5" fill="#9ca3af">
+    <tspan fill="#00fff7">&gt;</tspan> CORE: Persistent memory state, skill plugins &amp; automated SWE runner.
+  </text>
+
+  <!-- Tech Stack Pills -->
+  <g class="mono" font-size="9.5" fill="#d1d5db">
+    <rect x="24" y="204" width="68" height="22" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#ff2cdb" stroke-opacity="0.25"/>
+    <text x="58" y="218.5" text-anchor="middle" fill="#ff2cdb">Python</text>
+
+    <rect x="100" y="204" width="84" height="22" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#00fff7" stroke-opacity="0.25"/>
+    <text x="142" y="218.5" text-anchor="middle" fill="#00fff7">AI Agents</text>
+
+    <rect x="192" y="204" width="60" height="22" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="222" y="218.5" text-anchor="middle">MCP</text>
+
+    <rect x="260" y="204" width="68" height="22" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="294" y="218.5" text-anchor="middle">Docker</text>
+
+    <rect x="336" y="204" width="82" height="22" rx="3" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="377" y="218.5" text-anchor="middle">CLI / TUI</text>
+  </g>
+
+  <text x="564" y="218.5" text-anchor="end" class="mono" font-size="9.5" font-weight="700" fill="#ff2cdb">[ INSPECT &gt; ]</text>
+</svg>

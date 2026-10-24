@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="100%" height="100%">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+  </style>
+  <rect width="1200" height="64" rx="6" fill="#08080b" stroke="#1f242d" stroke-width="1.5"/>
+  <line x1="30" y1="32" x2="78" y2="32" stroke="#00fff7" stroke-width="2"/>
+  <text x="92" y="36" class="mono" font-size="12" font-weight="700" fill="#00fff7" letter-spacing="4">02 // PROJECT ARCHIVE</text>
+  <text x="345" y="36" class="mono" font-size="10.5" fill="#6b7280" letter-spacing="1.5">// SELECTED SYSTEMS &amp; PRODUCTION DEPLOYMENTS (CLICK CARD TO LAUNCH)</text>
+  <rect x="1030" y="20" width="144" height="24" rx="3" fill="#00fff7" fill-opacity="0.06" stroke="#00fff7" stroke-opacity="0.25"/>
+  <text x="1102" y="35.5" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#00fff7" letter-spacing="1.5">MODE: HUD_GRID</text>
+</svg>

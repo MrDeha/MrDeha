@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgId" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080b"/>
+      <stop offset="100%" stop-color="#0c0c12"/>
+    </linearGradient>
+    <linearGradient id="cyanBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="magentaBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2cdb"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="dualBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff7"/>
+      <stop offset="100%" stop-color="#ff2cdb"/>
+    </linearGradient>
+    <pattern id="gridId" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00fff7" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="1200" height="250" rx="8" fill="url(#bgId)" stroke="#1f242d" stroke-width="1.5"/>
+  <rect width="1200" height="250" rx="8" fill="url(#gridId)"/>
+
+  <!-- Corner Brackets -->
+  <path d="M 12 32 L 12 12 L 32 12" fill="none" stroke="#ff2cdb" stroke-width="2"/>
+  <path d="M 1168 238 L 1188 238 L 1188 218" fill="none" stroke="#00fff7" stroke-width="2"/>
+
+  <!-- Left Section: Identity Node (Mirrors About.tsx) -->
+  <line x1="38" y1="40" x2="82" y2="40" stroke="#ff2cdb" stroke-width="2"/>
+  <text x="94" y="44" class="mono" font-size="11" font-weight="700" fill="#ff2cdb" letter-spacing="4">01 // IDENTITY NODE</text>
+
+  <text x="38" y="84" class="sans" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+    Solving complexity with elegant architectures.
+  </text>
+
+  <text x="38" y="118" class="sans" font-size="13.5" fill="#9ca3af">
+    I'm <tspan fill="#ffffff" font-weight="600">Deha Çelik</tspan>, a software engineer who builds <tspan fill="#00fff7">real, working digital systems</tspan> — not just ideas.
+  </text>
+  <text x="38" y="140" class="sans" font-size="13.5" fill="#9ca3af">
+    From autonomous <tspan fill="#00fff7">AI agent platforms</tspan> and multi-agent command centers in <tspan fill="#ffffff">Tauri &amp; Rust</tspan> to
+  </text>
+  <text x="38" y="162" class="sans" font-size="13.5" fill="#9ca3af">
+    low-latency real-time web applications in <tspan fill="#ff2cdb">TypeScript, React &amp; Next.js</tspan>, every line of code
+  </text>
+  <text x="38" y="184" class="sans" font-size="13.5" fill="#9ca3af">
+    is engineered for precision, scalability, and real-world impact.
+  </text>
+
+  <!-- Mini Architecture Tags -->
+  <rect x="38" y="202" width="146" height="24" rx="3" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="111" y="218" text-anchor="middle" class="mono" font-size="9.5" fill="#00fff7" letter-spacing="1">AI AGENT ORCHESTRATION</text>
+
+  <rect x="194" y="202" width="146" height="24" rx="3" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="267" y="218" text-anchor="middle" class="mono" font-size="9.5" fill="#e5e7eb" letter-spacing="1">TAURI + RUST DESKTOP</text>
+
+  <rect x="350" y="202" width="146" height="24" rx="3" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="423" y="218" text-anchor="middle" class="mono" font-size="9.5" fill="#ff2cdb" letter-spacing="1">FULL-STACK TYPESCRIPT</text>
+
+  <rect x="506" y="202" width="136" height="24" rx="3" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="574" y="218" text-anchor="middle" class="mono" font-size="9.5" fill="#10b981" letter-spacing="1">REALTIME WEBRTC</text>
+
+  <!-- Vertical Divider -->
+  <line x1="676" y1="30" x2="676" y2="220" stroke="#ffffff" stroke-opacity="0.08" stroke-dasharray="4 4"/>
+
+  <!-- Right Section: Neural Core Telemetry Bars -->
+  <text x="706" y="44" class="mono" font-size="11" font-weight="700" fill="#00fff7" letter-spacing="3">SYSTEM TELEMETRY // CAPABILITY MATRIX</text>
+
+  <!-- Metric 1 -->
+  <text x="706" y="76" class="mono" font-size="10.5" fill="#d1d5db">FULL-STACK ARCHITECTURE (TS / REACT / NEXT.JS)</text>
+  <text x="1162" y="76" text-anchor="end" class="mono" font-size="10.5" font-weight="700" fill="#00fff7">98%</text>
+  <rect x="706" y="84" width="456" height="6" rx="3" fill="#181b22"/>
+  <rect x="706" y="84" width="446" height="6" rx="3" fill="url(#cyanBar)"/>
+
+  <!-- Metric 2 -->
+  <text x="706" y="118" class="mono" font-size="10.5" fill="#d1d5db">AI AGENTS, MCP SERVERS &amp; PYTHON AUTOMATION</text>
+  <text x="1162" y="118" text-anchor="end" class="mono" font-size="10.5" font-weight="700" fill="#ff2cdb">96%</text>
+  <rect x="706" y="126" width="456" height="6" rx="3" fill="#181b22"/>
+  <rect x="706" y="126" width="438" height="6" rx="3" fill="url(#magentaBar)"/>
+
+  <!-- Metric 3 -->
+  <text x="706" y="160" class="mono" font-size="10.5" fill="#d1d5db">NATIVE DESKTOP &amp; IDE SYSTEMS (TAURI / RUST)</text>
+  <text x="1162" y="160" text-anchor="end" class="mono" font-size="10.5" font-weight="700" fill="#00fff7">92%</text>
+  <rect x="706" y="168" width="456" height="6" rx="3" fill="#181b22"/>
+  <rect x="706" y="168" width="420" height="6" rx="3" fill="url(#dualBar)"/>
+
+  <!-- Metric 4 -->
+  <text x="706" y="202" class="mono" font-size="10.5" fill="#d1d5db">REALTIME PROTOCOLS &amp; CLOUD INFRA (WEBRTC / DOCKER)</text>
+  <text x="1162" y="202" text-anchor="end" class="mono" font-size="10.5" font-weight="700" fill="#10b981">95%</text>
+  <rect x="706" y="210" width="456" height="6" rx="3" fill="#181b22"/>
+  <rect x="706" y="210" width="433" height="6" rx="3" fill="url(#cyanBar)"/>
+</svg>
